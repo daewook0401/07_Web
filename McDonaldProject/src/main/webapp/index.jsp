@@ -30,7 +30,14 @@
 	 -->
 	<a href="sc">a 태그</a>
 	
+	<hr>
 	
+	<a href="include">포함포함 해야지</a> <br/>
+	<hr>
+	<a href="forward">포워드 JSP로 이동</a>
+	<hr>
+	
+	<a href="jstl">실과바늘 배우러가기</a>
 	
 </body>
 </html>
