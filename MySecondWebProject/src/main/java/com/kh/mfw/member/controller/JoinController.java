@@ -15,12 +15,10 @@ public class JoinController extends HttpServlet {
 
     public JoinController() {
         super();
-
     }
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("Rmdk");
 		request.getRequestDispatcher("/WEB-INF/views/member/enroll_form.jsp")
 			   .forward(request, response);	
 		

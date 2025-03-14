@@ -38,12 +38,12 @@
 	<div class="header-div1">
         <div class="header-div2">
             <div class="header-div3">
-                <h1 style="margin: 0; padding: 0;">myWeb</h1>
+                <h1 style="margin: 0; padding: 0;">"Hello, world!"</h1>
             </div>
             <div class="header-div3" style="float: right;">
                 <c:if test="${empty sessionScope.userId}">
-                    <a href="/login.jsp">로그인</a>
-                    <a href="/signup.jsp">회원가입</a>
+                    <a href="login">로그인</a>
+                    <a href="signup">회원가입</a>
                 </c:if>
                 <c:if test="${not empty sessionScope.userId}">
                     <a href="/logout.jsp">로그아웃</a>
