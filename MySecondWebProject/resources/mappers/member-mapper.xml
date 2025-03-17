@@ -23,7 +23,7 @@
 		</select>
 	 -->
 	<select id="login" 
-	parameterType="MemberDAO"
+	parameterType="MemberDTO"
 	resultType="MemberDTO">
 		SELECT MEMBER_ID memberId, MEMBER_PW memberPw, MEMBER_NAME memberName, EMAIL email, ENROLL_DATE enrollDate 
 		FROM KH_MEMBER

@@ -79,6 +79,7 @@
 		<script>
 			alert('${ sessionScope.message }');
 		</script>
+		<c:remove var="message" scope="session"/>
 	</c:if>
 
   <!-- Navigation -->
@@ -101,7 +102,7 @@
             <a class="nav-link js-scroll-trigger" href="#">공지사항</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/board">게시판</a>
+            <a class="nav-link js-scroll-trigger" href="boards?page=1">게시판</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/picBoard">사진게시판</a>
